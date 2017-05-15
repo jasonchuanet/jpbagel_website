@@ -1,9 +1,15 @@
 body {
-    background-color: powderblue;
+  background-color: white;
+  max-width: 650px;
+  margin: 40px auto;
+  line-height: 1.6;
 }
 h1 {
-    color: blue;
+  font-family: verdana;
+  font-weight: bold;
+  color: black;
 }
 p {
-    color: red;
+  font-family: verdana;
+  color: #222222;
 }
