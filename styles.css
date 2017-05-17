@@ -8,7 +8,9 @@ h1 {
   font-family: verdana;
   font-weight: bold;
   font-size: 2em;
+  line-height: 1.4;
   color: black;
+  text-align: center;
 }
 h2 {
   font-family: verdana;
@@ -18,8 +20,23 @@ h2 {
 }
 p {
   font-family: verdana;
-  font-size: 1em
+  font-size: 1em;
   color: #222222;
+  text-align: justify;
+}
+.ptop {
+  font-family: verdana;
+  font-weight: normal;
+  font-size: 1em;
+  color: black;
+  text-align: center;
+}
+.menu {
+  line-height: 1.8;
+}
+.dollar {
+    color: #333333;
+    text-align: right;
 }
 footer {
   font-family: verdana;
