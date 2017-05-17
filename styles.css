@@ -3,6 +3,13 @@ body {
   max-width: 650px;
   margin: 40px auto;
   line-height: 1.6;
+  background: repeating-linear-gradient(
+    45deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 10px,
+    #465298 20px
+  );
 }
 h1 {
   font-family: verdana;
@@ -37,6 +44,10 @@ p {
 .dollar {
     color: #333333;
     text-align: right;
+}
+.box {
+  background-color: white;
+  padding: 5%;
 }
 footer {
   font-family: verdana;
