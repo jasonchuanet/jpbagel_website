@@ -56,3 +56,6 @@ footer {
   color: black;
   text-align: center;
 }
+
+body{ cursor: url('cursor.cur'), auto;}
+
