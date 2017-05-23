@@ -1,99 +1,134 @@
-body {
-  background-color: white;
-  max-width: 900px;
-  margin: 40px auto;
-  line-height: 1.6;
-  background: repeating-linear-gradient(
-    45deg,
-    #606dbc,
-    #606dbc 10px,
-    #465298 10px,
-    #465298 20px
-  );
-}
-h1 {
-  font-family: verdana;
-  font-weight: bold;
-  font-size: 2em;
-  line-height: 1.4;
-  color: black;
-  text-align: center;
-}
-h2 {
-  font-family: verdana;
-  font-weight: normal;
-  font-size: 1.5em;
-  color: black;
-}
-p {
-  font-family: verdana;
-  font-size: 1em;
-  color: #222222;
-  text-align: justify;
-}
-.ptop {
-  font-family: verdana;
-  font-weight: normal;
-  font-size: 1em;
-  color: black;
-  text-align: center;
-}
-.specials {
-  line-height: 1.8;
-}
-.dollar {
-    color: #333333;
-    text-align: right;
-}
-.box {
-  background-color: white;
-  padding: 5%;
-}
-
-.menufull{
-    background-color: white;
-    padding: 2%;
-    column-count: 2;
-    column-span: all;
-    text-align: left;
-}
-.menuitem {
-  font-family: arial, helvetica, sans-serif;
-  line-height: 24.5333px;
-  font-size: 12pt;
-  display:block;
-}
-.menuitem span {
-  display:block;float:right;width:50%;margin-left:10px;
-}
-.menufav {
-  text-decoration: underline;
-  color: #ff0000;
-}
-.indent {
-  margin-left: 40px;
-}
-.menuh1 {
-  text-align: center;
-  font-weight: bold;
-  text-decoration: underline;
-  font-family: arial, helvetica, sans-serif;
-  line-height: 36.8px;
-  font-size: 32px;
-}.menuh2 {
-  text-align: center;
-  font-weight: bold;
-  text-decoration: underline;
-  font-family: arial, helvetica, sans-serif;
-  line-height: 36.8px;
-  font-size: 26px;
-}
-footer {
-  font-family: verdana;
-  font-weight: normal;
-  font-size: 1em;
-  color: black;
-  text-align: center;
-}
-
-body{ cursor: url('cursor.cur'), auto;}
+body {
+  background-color: white;
+  max-width: 900px;
+  margin: 40px auto;
+  line-height: 1.6;
+  background: repeating-linear-gradient(
+    45deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 10px,
+    #465298 20px
+  );
+}
+h1 {
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.4;
+  color: black;
+  text-align: center;
+}
+h2 {
+  font-family: verdana;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: black;
+}
+p {
+  font-family: verdana;
+  font-size: 1em;
+  color: #222222;
+  text-align: justify;
+}
+.ptop {
+  font-family: verdana;
+  font-weight: normal;
+  font-size: 1em;
+  color: black;
+  text-align: center;
+}
+.specials {
+  line-height: 1.8;
+}
+.dollar {
+    color: #333333;
+    text-align: right;
+}
+.box {
+  background-color: white;
+  padding: 5%;
+}
+
+.menudiv{
+    background-color: white;
+    padding: 2%;
+    column-count: 2;
+    column-span: all;
+    text-align: left;
+}
+
+.menuhead{
+  font-family: verdana;
+  font-size: 2em;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+.menusmall{
+  font-family: verdana;
+  font-size: .3em;
+    margin: 0px 0px 0px 0px;
+      text-align: center;
+}
+
+.menuitem{
+  font-family: verdana;
+  font-size: 1em;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+    width: 100%;
+
+}
+
+.menuprice{
+  font-family: verdana;
+  font-size: 1em;
+    margin: 0px 0px 0px 0px;
+    float: right;
+}
+<<<<<<< Updated upstream
+.menuitem {
+  font-family: arial, helvetica, sans-serif;
+  line-height: 24.5333px;
+  font-size: 12pt;
+  display:block;
+}
+.menuitem span {
+  display:block;float:right;width:50%;margin-left:10px;
+}
+.menufav {
+  text-decoration: underline;
+  color: #ff0000;
+}
+.indent {
+  margin-left: 40px;
+}
+.menuh1 {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: arial, helvetica, sans-serif;
+  line-height: 36.8px;
+  font-size: 32px;
+}.menuh2 {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: arial, helvetica, sans-serif;
+  line-height: 36.8px;
+  font-size: 26px;
+}
+=======
+
+
+>>>>>>> Stashed changes
+footer {
+  font-family: verdana;
+  font-weight: normal;
+  font-size: 1em;
+  color: black;
+  text-align: center;
+}
+
+body{ cursor: url('cursor.cur'), auto;}
