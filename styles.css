@@ -38,7 +38,7 @@ p {
   color: black;
   text-align: center;
 }
-.menu {
+.specials {
   line-height: 1.8;
 }
 .dollar {
@@ -55,22 +55,38 @@ p {
     padding: 2%;
     column-count: 2;
     column-span: all;
+    text-align: left;
 }
 .menuitem {
   font-family: arial, helvetica, sans-serif;
   line-height: 24.5333px;
   font-size: 12pt;
+  display:block;
 }
-.menuefav {
+.menuitem span {
+  display:block;float:right;width:50%;margin-left:10px;
+}
+.menufav {
   text-decoration: underline;
   color: #ff0000;
 }
-.menuheading {
+.indent {
+  margin-left: 40px;
+}
+.menuh1 {
+  text-align: center;
   font-weight: bold;
   text-decoration: underline;
   font-family: arial, helvetica, sans-serif;
   line-height: 36.8px;
   font-size: 32px;
+}.menuh2 {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: arial, helvetica, sans-serif;
+  line-height: 36.8px;
+  font-size: 26px;
 }
 footer {
   font-family: verdana;
