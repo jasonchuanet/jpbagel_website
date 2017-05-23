@@ -49,6 +49,13 @@ p {
   background-color: white;
   padding: 5%;
 }
+
+.menufull{
+    background-color: white;
+    padding: 2%;
+    column-count: 2;
+    column-span: all;
+}
 footer {
   font-family: verdana;
   font-weight: normal;
