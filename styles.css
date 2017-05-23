@@ -57,7 +57,7 @@ p {
     column-span: all;
     text-align: left;
 }
-
+img {  width:49%;  height:auto;}
 .menuhead{
   font-family: verdana;
   font-size: 2em;
