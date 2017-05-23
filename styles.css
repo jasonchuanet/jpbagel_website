@@ -56,6 +56,22 @@ p {
     column-count: 2;
     column-span: all;
 }
+.menuitem {
+  font-family: arial, helvetica, sans-serif;
+  line-height: 24.5333px;
+  font-size: 12pt;
+}
+.menuefav {
+  text-decoration: underline;
+  color: #ff0000;
+}
+.menuheading {
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: arial, helvetica, sans-serif;
+  line-height: 36.8px;
+  font-size: 32px;
+}
 footer {
   font-family: verdana;
   font-weight: normal;
