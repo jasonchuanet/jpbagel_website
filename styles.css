@@ -124,11 +124,7 @@ img {  width:49%;  height:auto;}
 
 >>>>>>> Stashed changes
 footer {
-  font-family: verdana;
-  font-weight: normal;
-  font-size: 1em;
-  color: black;
-  text-align: center;
+  font-family: verdana;  font-size: 2em;  margin: 0px 0px 0px 0px;  text-align: center;
 }
 
 body{ cursor: url('cursor.cur'), auto;}
