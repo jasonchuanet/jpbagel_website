@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  max-width: 650px;
+  max-width: 900px;
   margin: 40px auto;
   line-height: 1.6;
   background: repeating-linear-gradient(
@@ -58,4 +58,3 @@ footer {
 }
 
 body{ cursor: url('cursor.cur'), auto;}
-
